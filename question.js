@@ -13,8 +13,11 @@ class Question {
     this.constructor._All.push(this);
   }
 
-  static Find(id){
-    
+  static Find(id) {
+    // id 1 
+    // [Question1, Question2, Question3]
+    // index 0 id - 1
+    this.All()[id - 1]
   }
 }
 
