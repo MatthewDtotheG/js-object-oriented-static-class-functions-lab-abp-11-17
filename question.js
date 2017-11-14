@@ -1,11 +1,11 @@
 'use strict';
 
 class Question {
-  constructor(content){
-    this.content = content
-    this.save
+  constructor(content) {
+    this.content = content;
+    this.save();
   }
-  
+
   static All() {
     return this._All;
   }
