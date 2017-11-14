@@ -5,14 +5,12 @@ class Question {
     this.content = content;
     this.save();
   }
-
   static All() {
     return this._All;
   }
   save() {
     this.constructor._All.push(this);
   }
-
   static Find(id) {
     return this.All()[id - 1];
   }
