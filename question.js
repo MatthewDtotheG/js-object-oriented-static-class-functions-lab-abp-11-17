@@ -1,5 +1,11 @@
 'use strict';
 
-class Question {}
+class Question {
 
-Question._All = []
+  static All() {
+  return this._All;
+} 
+}
+
+Question._All = [];
+
