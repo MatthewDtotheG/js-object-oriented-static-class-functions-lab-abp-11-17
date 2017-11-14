@@ -3,6 +3,7 @@
 class Question {
   constructor(content){
     this.content = content
+    this.save
   }
   
   static All() {
