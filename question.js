@@ -14,9 +14,6 @@ class Question {
   }
 
   static Find(id) {
-    // id 1
-    // [Question1, Question2, Question3]
-    // index 0 id - 1
     return this.All()[id - 1];
   }
 }
